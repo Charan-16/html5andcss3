@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising Progress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .goal {
+            font-weight: bold;
+        }
+        .meter-container {
+            width: 50%;
+            margin: 20px auto;
+        }
+        meter {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Fundraising Goal</h1>
+    <p>Help us reach our goal of $5000!</p>
+    <div class="meter-container">
+        <p class="goal">Progress: $2500 / $5000</p>
+        <meter value="2500" min="0" max="5000">$2500 out of $5000</meter>
+    </div>
+</body>
+</html>
