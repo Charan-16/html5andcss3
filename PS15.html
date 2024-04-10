@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AwesomeCo Blog</title>
+  <style>
+
+    @media only screen and (max-device-width: 480px) {
+    body {
+        width: 480px;
+    }
+   
+
+    nav, section, header, footer {
+        margin: 0 10px;
+    }
+
+    #sidebar, #posts {
+        float: none;
+        width: 100%;
+    }
+}
+  </style>
+
+</head>
+<body>
+    <header class="header" >
+        <h1>AwesomeCo Blog</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Reader</a></li>
+            <li><a href="#">Search</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>How Many Should We Put You Down For?</h2>
+        <p>Posted by Brian on October 1st, 2013 at 2:39PM</p>
+        
+        <p>The first big rule in sales is that if the person leaves empty-handed, they're likely not going to come back.</p>
+        
+        <p>"Never give someone a chance to say no when selling your product."</p>
+        
+        <p>That's why you have to be somewhat aggressive when you're working with a customer, but you have to make sure you don't overdo it and scare them away.</p>
+        
+        <form action="submit.php" method="post">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="#">Latest Posts</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Contributors</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
